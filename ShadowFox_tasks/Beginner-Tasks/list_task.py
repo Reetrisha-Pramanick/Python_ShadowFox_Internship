@@ -1,0 +1,17 @@
+justice_league = ["Superman", "Batman", "Wonder Women", "Flash", "Aquaman", "Green Lantern"]
+items = len(justice_league)
+print("length of justice_league:", items)
+justice_league.append("Batgirl")
+justice_league.append("Nightwing")
+print(justice_league)
+leader = justice_league.pop(2)
+justice_league.insert(0, leader)
+print(justice_league)
+inBetween = justice_league.pop(5)
+justice_league.insert(4, inBetween)
+print(justice_league)
+justice_league[:] = ["Batman", "Cyborg", "Shazam" , "Hawkgirl" ,"Martian Manhunter", "Green Arrow"]
+print(justice_league)
+justice_league.sort()
+print(justice_league)
+print("The new leader is: Batman")
